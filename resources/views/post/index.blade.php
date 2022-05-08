@@ -8,7 +8,7 @@
     <header class="bg-white shadow">
         <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
             {{ __('Posts') }}
-            <a href="{{ route('post.create') }}" class="mr-2 btn btn-sm border-y-gray-300">Add New</a>
+            <a href="{{ route('post.create') }}" class="mr-2 btn btn-xs btn-primary btn-outline">Add New</a>
         </div>
     </header>
 

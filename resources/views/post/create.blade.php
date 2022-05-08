@@ -31,17 +31,18 @@
                 </div>
                 <div class="w-1/3">
                     <div class="bg-white p-2 rounded">
+                        <!-- collapse -->
                         <div tabindex="0" class="collapse collapse-open collapse-arrow border border-base-300 bg-base-100 rounded-box">
                             <div class="collapse-title text-xl font-medium">
                                 Status and visibility
                             </div>
                             <div class="collapse-content">
-{{--                                <div class="form-control">--}}
-{{--                                    <label class="label cursor-pointer">--}}
-{{--                                        <span class="label-text">{{ __('Visibility') }}</span>--}}
-{{--                                        <input type="checkbox" class="toggle toggle-primary" />--}}
-{{--                                    </label>--}}
-{{--                                </div>--}}
+                                {{--                                <div class="form-control">--}}
+                                {{--                                    <label class="label cursor-pointer">--}}
+                                {{--                                        <span class="label-text">{{ __('Visibility') }}</span>--}}
+                                {{--                                        <input type="checkbox" class="toggle toggle-primary" />--}}
+                                {{--                                    </label>--}}
+                                {{--                                </div>--}}
                                 <div class="flex justify-between items-center">
                                     <div class="">
                                         <span class="label-text">{{ __('Visibility') }}</span>
@@ -63,6 +64,7 @@
                                 </div>
                             </div> <!-- collapse-content -->
                         </div>
+                        <!-- / END collapse -->
                         <div class="mt-6 text-right">
                             <button class="btn btn-sm btn-primary text-sm leading-5 rounded-md font-semibold text-white">
                                 Save changes
